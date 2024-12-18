@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#F35389"
+        android:gravity="center"
+        android:text="Implicit Intents"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edittext_uri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="http://developer.anfroid.com" />
+
+    <Button
+        android:id="@+id/website_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Website"
+        android:onClick="openWebsite"/>
+
+    <EditText
+        android:id="@+id/edittext_loc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Golden Gate Bridge" />
+
+    <Button
+        android:id="@+id/button_loc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Location"
+        android:onClick="openLocation"/>
+
+    <EditText
+        android:id="@+id/edittext_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="zdxtfycguvhibj" />
+
+    <Button
+        android:id="@+id/button_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share This Text"
+        android:onClick="shareText"/>
+
+</LinearLayout>
