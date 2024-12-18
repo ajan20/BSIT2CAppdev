@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">droidcafe</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="froyo">Froyo is premium self_service frozen yogurt.</string>
+    <string name="ice_cream_sanwiches">Ice cream sandwiches have chocolate waffers and vanilla filling.</string>
+    <string name="dout">Donuts are glazed and sprinkled with candy.</string>
+
+    <string name="dunot_order_message"> You ordered a donut. </string>
+    <string name="froyo_order_message"> You ordered a FroYo. </string>
+    <string name="ice_cream_order_message"> You ordered an ice cream sandwich. </string>
+    <string name="intro_text">Droid Cafe</string>
+</resources>
